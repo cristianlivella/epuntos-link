@@ -25,4 +25,4 @@ jobs:
         user: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         remoteDir: ${{ secrets.FTP_DIR }}
-        options: "-v --delete -x ^.config.php"
+        options: "-v --delete -x ^config.php"
